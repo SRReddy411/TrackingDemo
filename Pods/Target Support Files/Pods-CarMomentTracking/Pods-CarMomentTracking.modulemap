@@ -1,0 +1,6 @@
+framework module Pods_CarMomentTracking {
+  umbrella header "Pods-CarMomentTracking-umbrella.h"
+
+  export *
+  module * { export * }
+}

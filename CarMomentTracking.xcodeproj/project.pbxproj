@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7FB455EC50A1548807FBFCF /* Pods_CarMomentTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377E496BD466D42467778D7D /* Pods_CarMomentTracking.framework */; };
+		FDB6B82821DDCBAE00AC1ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB6B82721DDCBAE00AC1ABE /* AppDelegate.swift */; };
+		FDB6B82A21DDCBAE00AC1ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB6B82921DDCBAE00AC1ABE /* ViewController.swift */; };
+		FDB6B82D21DDCBAE00AC1ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB6B82B21DDCBAE00AC1ABE /* Main.storyboard */; };
+		FDB6B82F21DDCBB000AC1ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB6B82E21DDCBB000AC1ABE /* Assets.xcassets */; };
+		FDB6B83221DDCBB000AC1ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB6B83021DDCBB000AC1ABE /* LaunchScreen.storyboard */; };
+		FDB6B83A21DDCBEA00AC1ABE /* ARCarMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB6B83921DDCBEA00AC1ABE /* ARCarMovement.swift */; };
+		FDB6B83C21DDCC1A00AC1ABE /* coordinates.json in Resources */ = {isa = PBXBuildFile; fileRef = FDB6B83B21DDCC1A00AC1ABE /* coordinates.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04DFDBB1BDA7E2385B5594E3 /* Pods-CarMomentTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMomentTracking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarMomentTracking/Pods-CarMomentTracking.debug.xcconfig"; sourceTree = "<group>"; };
+		377E496BD466D42467778D7D /* Pods_CarMomentTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarMomentTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD32908212F41C9FD54369F5 /* Pods-CarMomentTracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMomentTracking.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarMomentTracking/Pods-CarMomentTracking.release.xcconfig"; sourceTree = "<group>"; };
+		FDB6B82421DDCBAE00AC1ABE /* CarMomentTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarMomentTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB6B82721DDCBAE00AC1ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB6B82921DDCBAE00AC1ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDB6B82C21DDCBAE00AC1ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB6B82E21DDCBB000AC1ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB6B83121DDCBB000AC1ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB6B83321DDCBB000AC1ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB6B83921DDCBEA00AC1ABE /* ARCarMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCarMovement.swift; sourceTree = "<group>"; };
+		FDB6B83B21DDCC1A00AC1ABE /* coordinates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coordinates.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB6B82121DDCBAE00AC1ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FB455EC50A1548807FBFCF /* Pods_CarMomentTracking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF7286F069D95B8FEC9356F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377E496BD466D42467778D7D /* Pods_CarMomentTracking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5FA0F77319A678857F3E80C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04DFDBB1BDA7E2385B5594E3 /* Pods-CarMomentTracking.debug.xcconfig */,
+				CD32908212F41C9FD54369F5 /* Pods-CarMomentTracking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDB6B81B21DDCBAE00AC1ABE = {
+			isa = PBXGroup;
+			children = (
+				FDB6B82621DDCBAE00AC1ABE /* CarMomentTracking */,
+				FDB6B82521DDCBAE00AC1ABE /* Products */,
+				E5FA0F77319A678857F3E80C /* Pods */,
+				BF7286F069D95B8FEC9356F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB6B82521DDCBAE00AC1ABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB6B82421DDCBAE00AC1ABE /* CarMomentTracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB6B82621DDCBAE00AC1ABE /* CarMomentTracking */ = {
+			isa = PBXGroup;
+			children = (
+				FDF8C11021E3389500F6F60A /* ThirdParty */,
+				FDB6B82721DDCBAE00AC1ABE /* AppDelegate.swift */,
+				FDB6B82921DDCBAE00AC1ABE /* ViewController.swift */,
+				FDB6B82B21DDCBAE00AC1ABE /* Main.storyboard */,
+				FDB6B82E21DDCBB000AC1ABE /* Assets.xcassets */,
+				FDB6B83B21DDCC1A00AC1ABE /* coordinates.json */,
+				FDB6B83021DDCBB000AC1ABE /* LaunchScreen.storyboard */,
+				FDB6B83321DDCBB000AC1ABE /* Info.plist */,
+			);
+			path = CarMomentTracking;
+			sourceTree = "<group>";
+		};
+		FDF8C11021E3389500F6F60A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				FDB6B83921DDCBEA00AC1ABE /* ARCarMovement.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB6B82321DDCBAE00AC1ABE /* CarMomentTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB6B83621DDCBB000AC1ABE /* Build configuration list for PBXNativeTarget "CarMomentTracking" */;
+			buildPhases = (
+				D93C2C015FA6095A7036719B /* [CP] Check Pods Manifest.lock */,
+				FDB6B82021DDCBAE00AC1ABE /* Sources */,
+				FDB6B82121DDCBAE00AC1ABE /* Frameworks */,
+				FDB6B82221DDCBAE00AC1ABE /* Resources */,
+				AF877BC11B2C1C6D3F5693B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarMomentTracking;
+			productName = CarMomentTracking;
+			productReference = FDB6B82421DDCBAE00AC1ABE /* CarMomentTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB6B81C21DDCBAE00AC1ABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "volive solutions";
+				TargetAttributes = {
+					FDB6B82321DDCBAE00AC1ABE = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FDB6B81F21DDCBAE00AC1ABE /* Build configuration list for PBXProject "CarMomentTracking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB6B81B21DDCBAE00AC1ABE;
+			productRefGroup = FDB6B82521DDCBAE00AC1ABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB6B82321DDCBAE00AC1ABE /* CarMomentTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB6B82221DDCBAE00AC1ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB6B83221DDCBB000AC1ABE /* LaunchScreen.storyboard in Resources */,
+				FDB6B82F21DDCBB000AC1ABE /* Assets.xcassets in Resources */,
+				FDB6B82D21DDCBAE00AC1ABE /* Main.storyboard in Resources */,
+				FDB6B83C21DDCC1A00AC1ABE /* coordinates.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF877BC11B2C1C6D3F5693B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CarMomentTracking/Pods-CarMomentTracking-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarMomentTracking/Pods-CarMomentTracking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93C2C015FA6095A7036719B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarMomentTracking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB6B82021DDCBAE00AC1ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB6B82A21DDCBAE00AC1ABE /* ViewController.swift in Sources */,
+				FDB6B82821DDCBAE00AC1ABE /* AppDelegate.swift in Sources */,
+				FDB6B83A21DDCBEA00AC1ABE /* ARCarMovement.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDB6B82B21DDCBAE00AC1ABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB6B82C21DDCBAE00AC1ABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB6B83021DDCBB000AC1ABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB6B83121DDCBB000AC1ABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB6B83421DDCBB000AC1ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB6B83521DDCBB000AC1ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB6B83721DDCBB000AC1ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04DFDBB1BDA7E2385B5594E3 /* Pods-CarMomentTracking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZHFWKUNJV;
+				INFOPLIST_FILE = CarMomentTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = volive.CarMomentTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDB6B83821DDCBB000AC1ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD32908212F41C9FD54369F5 /* Pods-CarMomentTracking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JZHFWKUNJV;
+				INFOPLIST_FILE = CarMomentTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = volive.CarMomentTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB6B81F21DDCBAE00AC1ABE /* Build configuration list for PBXProject "CarMomentTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB6B83421DDCBB000AC1ABE /* Debug */,
+				FDB6B83521DDCBB000AC1ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB6B83621DDCBB000AC1ABE /* Build configuration list for PBXNativeTarget "CarMomentTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB6B83721DDCBB000AC1ABE /* Debug */,
+				FDB6B83821DDCBB000AC1ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB6B81C21DDCBAE00AC1ABE /* Project object */;
+}
